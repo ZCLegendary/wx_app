@@ -1,0 +1,36 @@
+
+<scroll-view scroll-y="true" style="height: 100%;" bindscrolltoupper="upper" bindscrolltolower="lower" bindscroll="scroll">
+
+ <modal title="提示" confirm-text="确定" cancel-text="取消" hidden="{{modalHidden}}" mask bindconfirm="modalChange" bindcancel="modalChange">
+            {{modalText}}
+  </modal>
+
+<!--banner-->
+ <view>
+     <swiper indicator-dots="{{indicatorDots}}" vertical="{{vertical}}"
+                    autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}">
+         <block wx:for-items="{{image_one}}">
+           <swiper-item>
+             <image src="{{item}}" class="swiper-item" width="100%" height="200px"/>
+           </swiper-item>
+         </block>
+     </swiper>
+ </view>
+  
+
+    <!--body-->
+    <view class = "body-view" >
+     <block wx:for-items="{{datas}}" wx:for-item="item">
+     <view id="{{index}}" bindtap="click_to_Video">
+     <image style = "width: 100%; height: 200px; background-color: #eeeeee;"  src = "{{item.coverForDetail}}" ></image>
+    <text style = "font-size: 14px"> {{item.title}} </text>
+    </view>
+    </block>
+    </view>
+  
+</scroll-view>
+
+
+
+
+

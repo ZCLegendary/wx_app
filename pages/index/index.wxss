@@ -1,0 +1,15 @@
+.swiper-item{
+    display: block;
+    height: 200px;
+    width: 100%;
+    background-color: red;
+
+}
+
+
+
+.body-view {
+    margin-top: 10px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
