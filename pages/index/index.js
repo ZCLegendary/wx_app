@@ -20,6 +20,8 @@ Page({
      datas: [],
 //modal     
      modalHidden: true,
+//loading
+     hide: false,     
 
 //data end
 },
@@ -51,6 +53,12 @@ wx.request( {
           datas: newData.videoList
         })
         self.update()
+
+        setTimeout (function () {
+          self.setData({
+          hide: true
+        })
+        }, 500)
       }
     });
 },

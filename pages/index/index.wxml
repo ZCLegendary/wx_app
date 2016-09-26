@@ -5,6 +5,9 @@
             {{modalText}}
   </modal>
 
+<loading hidden = "{{hide}}">加载中...</loading>
+
+
 <!--banner-->
  <view>
      <swiper indicator-dots="{{indicatorDots}}" vertical="{{vertical}}"

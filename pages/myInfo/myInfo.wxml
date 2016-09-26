@@ -1,9 +1,49 @@
 <view class="container">
+
+<view class = "userinfo_container">
   <view  class="userinfo">
     <image class="userinfo-avatar" src="{{userInfo.avatarUrl}}" background-size="cover"></image>
     <text class="userinfo-nickname">{{userInfo.nickName}}</text>
+    <text class="userinfo-sign">{{sign}}</text>
   </view>
-  <view class="usermotto">
-    <text class="user-motto">{{motto}}</text>
-  </view>
+</view>
+
+<!--detail-->
+
+<view class="detail-container">
+<view class="block-view">
+  <image class="icon" src="/images/ziliao.png"></image>
+  <text class="block-text">我的资料</text>
+  <image class="block-arrow" src="/images/arrow.png"></image>
+  <view class="line"></view>
+</view>
+<view class="block-view">
+  <image class="icon" src="/images/wodeshoucang.png"></image>
+  <text class="block-text">我的收藏</text>
+  <image class="block-arrow" src="/images/arrow.png"></image>
+  <view class="line"></view>
+</view>
+
+<view class="block-view">
+  <image class="icon" src="/images/wodehuodong.png"></image>
+  <text class="block-text">我的活动</text>
+  <image class="block-arrow" src="/images/arrow.png"></image>
+
+</view>
+</view>
+
+<view class="detail-container">
+<view class="block-view">
+  <image class="icon" src="/images/wodezuopin.png"></image>
+  <text class="block-text">我的作品</text>
+  <image class="block-arrow" src="/images/arrow.png"></image>
+  <view class="line"></view>
+</view>
+<view class="block-view">
+  <image class="icon" src="/images/shezhi.png"></image>
+  <text class="block-text">设置</text>
+  <image class="block-arrow" src="/images/arrow.png"></image>
+</view>
+</view>
+
 </view>

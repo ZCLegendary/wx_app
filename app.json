@@ -1,7 +1,8 @@
 {
   "pages":[
     "pages/index/index",
-    "pages/myInfo/myInfo"
+    "pages/myInfo/myInfo",
+    "pages/myVideo/myVideo"
   ],
   "window":{
     "backgroundTextStyle":"light",

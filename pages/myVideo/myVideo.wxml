@@ -1,6 +1,8 @@
-<view style="width: 100%; height: 100%">
-    <video style="width: 100%; height:100%" src="http://baobab.wandoujia.com/api/v1/playUrl?vid=6536&editionType=default" ></video>
-        <!--<video style="width: 100%; height:100%" src="{{item.url}}" ></video>-->
+<view class="video-container" >
 
+    
+    <video style="width: 100%; height:80%;" src="http://baobab.wandoujia.com/api/v1/playUrl?vid=6536&editionType=default"  ></video>
+        <!--<video style="width: 100%; height:100%" src="{{item.url}}" ></video>-->
+        <button type="primary" size="{{primarySize}}" bindtap="collect">点击收藏</button>
 </view>
 

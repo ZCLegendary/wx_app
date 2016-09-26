@@ -3,7 +3,8 @@ var app = getApp()
 Page({
   data: {
     motto: 'Hello World',
-    userInfo: {}
+    userInfo: {},
+    sign: "talk is cheap,show me the code"
   },
   onLoad: function () {
     console.log('onLoad')
