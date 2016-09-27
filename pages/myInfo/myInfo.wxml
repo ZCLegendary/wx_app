@@ -11,7 +11,7 @@
 <!--detail-->
 
 <view class="detail-container">
-<view class="block-view">
+<view class="block-view" bindtap="click_to_myInfo">
   <image class="icon" src="/images/ziliao.png"></image>
   <text class="block-text">我的资料</text>
   <image class="block-arrow" src="/images/arrow.png"></image>

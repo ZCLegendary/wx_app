@@ -1,0 +1,13 @@
+<view class="container" bindtap="animationTap" >
+
+    <view style="">
+        <image class="info_image" src="/images/IMG_0825.jpg" animation="{{animationData}}"></image>
+        <!--<text>姓名:三哥</text>
+        <text>年龄:18</text>-->
+    </view>
+    
+
+    <text class="text">咳咳,其实我只是个传说...对,传说...传说...传说...传说...传说...传说...传说</text>
+
+
+</view>

@@ -16,5 +16,16 @@ Page({
         userInfo:userInfo
       })
     })
+  },
+
+  click_to_myInfo: function () {
+
+    wx.navigateTo({
+      url: "myDetail/myDetail" 
+    })
+
+
   }
+
+
 })
