@@ -3,7 +3,8 @@
     "pages/index/index",
     "pages/myInfo/myInfo",
     "pages/myVideo/myVideo",
-    "pages/myInfo/myDetail/myDetail"
+    "pages/myInfo/myDetail/myDetail",
+    "pages/myInfo/myLocation/myLocation"
   ],
   "window":{
     "backgroundTextStyle":"light",

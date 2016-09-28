@@ -23,6 +23,13 @@ Page({
     wx.navigateTo({
       url: "myDetail/myDetail" 
     })
+  },
+
+   click_to_myLocation: function () {
+
+    wx.navigateTo({
+      url: "myLocation/myLocation" 
+    })
 
 
   }

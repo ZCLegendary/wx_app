@@ -17,9 +17,9 @@
   <image class="block-arrow" src="/images/arrow.png"></image>
   <view class="line"></view>
 </view>
-<view class="block-view">
+<view class="block-view" bindtap="click_to_myLocation">
   <image class="icon" src="/images/wodeshoucang.png"></image>
-  <text class="block-text">我的收藏</text>
+  <text class="block-text">我的位置</text>
   <image class="block-arrow" src="/images/arrow.png"></image>
   <view class="line"></view>
 </view>
